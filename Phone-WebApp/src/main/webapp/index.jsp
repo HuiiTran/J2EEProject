@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ page import="java.util.List" %>
+<%@ page import="com.DB.DBConnect" %>
+<%@ page import="java.sql.Connection" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,6 +29,11 @@
 		<h2 class="text-center text-danger">Phone store</h2>
 	</div>
 
+
+	<%-- <% Connection conn =  DBConnect.getConn();
+	out.println(conn);
+	%> --%>
+	
 	<div class=container>
 		<h3 class="text-center">Iphone</h3>
 		<div class="row">
