@@ -1,0 +1,127 @@
+
+
+
+@media only screen and (max-width: 600px) {
+    .ScoreBoardContainerStudent {
+        margin-top: 20%;
+        margin-left: 0%;
+        background-color: white;
+    }
+    
+}
+@media only screen and (min-width: 600px) {
+    .ScoreBoardContainerStudent {
+        margin-top: 15%;
+        margin-left: 0%;
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 768px){
+    .ScoreBoardContainerStudent {
+        margin-top: 15%;
+        margin-left: 0%;
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .MainContainErSchedule {
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        position: fixed;
+        margin-left: 0%;
+        margin-top: 0%;
+        overflow-y: auto;
+        width: 90%;
+        height: 80vh;
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .MainContainErSchedule {
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        position: fixed;
+        margin-left: 5%;
+        margin-top: 0%;
+        overflow-y: auto;
+        width: 79%;
+        height: 80vh;
+        background-color: white;
+    }
+}
+@media only screen and (min-width: 1300px) {
+    .MainContainErSchedule {
+        display: flex;
+        gap: 0px;
+        flex-wrap: wrap;
+        position: fixed;
+        margin-left: 5%;
+        margin-top: 0%;
+        overflow-y: auto;
+        width: 79%;
+        height: 80vh;
+        background-color: white;
+    }
+
+}
+.ScheduleBoardM {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    width: 99%;
+    background-color: white;
+}
+
+//
+.fc .fc-timeGridDay-view .fc-v-event .fc-event-main, .fc .fc-timeGridWeek-view .fc-v-event .fc-event-main
+{
+    color: white;
+    pointer-events: none;
+
+}
+
+.fc td, .fc th, .fc table {
+    border-color: black !important;
+  }
+  
+////////////////
+.monday {
+    width: 180px;
+    text-align: center;
+}
+.tuesday {
+    width: 160px;
+    text-align: center;
+}
+.wednesday {
+    width: 200px;
+    text-align: center;
+}
+.thursday {
+    width: 190px;
+    text-align: center;
+}
+.friday {
+    width: 170px;
+    text-align: center;
+}
+.saturday {
+    width: 270px;
+    text-align: center;
+}
+
+////
+.dropSemester_1 {
+    padding-top: 2%;
+}
+#dropdown-basic {
+    background-color: #2f88ff;
+    color: white;
+}
+#dropdown-basic-items {
+    color: #2f88ff;
+}
+#dropSemester {
+    position: relative;
+}
